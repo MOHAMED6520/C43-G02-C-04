@@ -97,6 +97,12 @@
         //    data.Mul = A*B;
         //    return data;
         //}    
+
+        //static void SumMul(int A, int B,out int Sum , out int Mul)
+        //{
+        //  Sum = A + B;
+        //  Mul = A * B;
+        //}
         static void Main(string[] args)
         {
             #region One_D_Array
