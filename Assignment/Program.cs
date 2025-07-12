@@ -313,6 +313,20 @@
             //} 
             #endregion
 
+            #region Q12
+            //int[] arr = { 11, 2, 23, 44, 15, 65, 74, 18, 90 };
+            //int min = arr[0], max = arr[0];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] < min)
+            //        min = arr[i];
+            //    if (arr[i] > max)
+            //        max = arr[i];
+            //}
+            //Console.WriteLine($"Max = {max}");
+            //Console.WriteLine($"Min = {min}"); 
+            #endregion
+
         }
     }
 }
