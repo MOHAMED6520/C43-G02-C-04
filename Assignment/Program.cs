@@ -15,6 +15,19 @@
         //    return value;
         //} 
         #endregion
+        #region Q02
+        //static string PrintStringAfterModifyByValue (string text)
+        //{
+        //    text += " Mohamed";
+        //    return text;
+        //}
+
+        //static string PrintStringAfterModifyByReference(ref string text)
+        //{
+        //    text += " Mohamed";
+        //    return text;
+        //} 
+        #endregion
         static void Main(string[] args)
         {
             #region Q01
@@ -46,6 +59,20 @@
             //ValueMultipliedByFiveByReferences(ref x);
             //Console.WriteLine($"x = {x}"); 
             #endregion
+            #region Q02
+            //static string PrintStringAfterModifyByValue (string text)
+            //{
+            //    text += " Mohamed";
+            //    return text;
+            //}
+
+            //static string PrintStringAfterModifyByReference(ref string text)
+            //{
+            //    text += " Mohamed";
+            //    return text;
+            //} 
+            #endregion
+
         }
     }
 }
