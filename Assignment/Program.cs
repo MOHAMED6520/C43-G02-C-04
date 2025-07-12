@@ -37,6 +37,23 @@
         //    Mul = X*Y;
         //} 
         #endregion
+
+        #region Q04
+        //static void SumDigit (int Number)
+        //{
+        //    int sum = 0,num=Number;
+
+        //  while (num > 0)
+        //    {
+        //        sum+= num % 10;
+        //        num /= 10;
+        //    }
+        //    Console.WriteLine($"The sum of the digits of the number {Number} is: {sum} ");
+
+        //} 
+        #endregion
+
+        
         static void Main(string[] args)
         {
             #region Q01
@@ -91,6 +108,11 @@
             //Console.WriteLine($"{X} * {Y} = {mul}"); 
             #endregion
 
+            #region Q04
+            //    Console.Write("Enter a number: ");
+            //int number = int.Parse(Console.ReadLine());
+            //    SumDigit(number); 
+            #endregion
         }
     }
 }
