@@ -343,6 +343,32 @@
             //Console.WriteLine($"he second largest element = {max2}"); 
             #endregion
 
+            #region Q14
+            //Console.Write("Enter The lenth of Array : ");
+            //int len = int.Parse(Console.ReadLine());
+            //Console.WriteLine("enter the values");
+            //int []arr = new int[len];
+            //for (int i = 0; i < len; i++)
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //int dis = 0 ,lastdis=0;
+
+            //for (int i =0;i<len;i++)
+            //{
+            //    for (int j = i; j < len; j++)
+            //    {
+            //        if (arr[i] == arr[j])
+            //            dis = j - i-1;
+            //    }
+            //    if (lastdis<dis)
+            //        lastdis = dis;
+            //    dis = 0;
+            //}
+
+            //Console.WriteLine($"The longest distance between Two equal cells = {lastdis}");
+
+            #endregion
+
         }
     }
 }
