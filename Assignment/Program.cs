@@ -45,6 +45,57 @@
         //    y = temp;
         //}
 
+        //static int SumArray(int[] array)
+        //{
+        //    int sum = 0;
+        //    array[0] = 100;
+        //    for (int i = 0; i < array.Length; i++) 
+        //        sum += array[i];
+        //    return sum;
+        //}
+        //static int SumArray(ref int[] array)
+        //{
+        //    int sum = 0;
+        //    array[0] = 100;
+        //    for (int i = 0; i < array.Length; i++)
+        //        sum += array[i];
+        //    return sum;
+        //}
+
+       
+        // Passing Parameter Reference Type
+
+        // Passing By Value 
+
+        //int [] Numbers = { 1, 2, 3 };
+        //Console.WriteLine(SumArray(Numbers));
+        //Console.WriteLine(Numbers[0]);
+
+
+
+
+        //Passing By Reference
+        //int[] Numbers = { 1, 2, 3 };
+        //Console.WriteLine(SumArray(ref Numbers));
+        //Console.WriteLine(Numbers[0]); 
+
+        // example 02
+        //Passing Parameter Reference Type
+
+        // Passing By Value
+
+        //int[] Numbers = { 1, 2, 3 };
+        //Console.WriteLine(SumArray(Numbers));
+        //Console.WriteLine(Numbers[0]);
+
+
+        // Passing By References
+
+
+        //int[] Numbers = { 1, 2, 3 };
+        //Console.WriteLine(SumArray(ref Numbers));
+        //Console.WriteLine(Numbers[0]);
+
         static void Main(string[] args)
         {
             #region One_D_Array
@@ -207,7 +258,41 @@
             //Console.WriteLine($"A : {A}");
             //Console.WriteLine($"B : {B}"); 
             #endregion
+            #region Passing Parameter Reference Type
+            // Passing Parameter Reference Type
 
+            // Passing By Value 
+
+            //int [] Numbers = { 1, 2, 3 };
+            //Console.WriteLine(SumArray(Numbers));
+            //Console.WriteLine(Numbers[0]);
+
+
+
+
+            //Passing By Reference
+            //int[] Numbers = { 1, 2, 3 };
+            //Console.WriteLine(SumArray(ref Numbers));
+            //Console.WriteLine(Numbers[0]); 
+
+            // example 02
+            //Passing Parameter Reference Type
+
+            // Passing By Value
+
+            //int[] Numbers = { 1, 2, 3 };
+            //Console.WriteLine(SumArray(Numbers));
+            //Console.WriteLine(Numbers[0]);
+
+
+            // Passing By References
+
+
+            //int[] Numbers = { 1, 2, 3 };
+            //Console.WriteLine(SumArray(ref Numbers));
+            //Console.WriteLine(Numbers[0]);
+
+            #endregion
         }
     }
 }
