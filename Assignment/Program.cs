@@ -62,40 +62,41 @@
         //    return sum;
         //}
 
-       
-        // Passing Parameter Reference Type
+        //static int SumArray(int[] array)
+        //{
+        //    int sum = 0;
+        //    array = new int[] { 4,5,3,2};
+        //    for (int i = 0; i < array.Length; i++)
+        //        sum += array[i];
+        //    return sum;
+        //}
 
-        // Passing By Value 
+        //static int SumArray( ref int[]  array)
+        //{
+        //    int sum = 0;
+        //    array = new int[] { 4, 5, 3, 2 };
+        //    for (int i = 0; i < array.Length; i++)
+        //        sum += array[i];
+        //    return sum;
+        //}
+        //static int [] SumMul (int A , int B)
+        //{
+        //    int[] SumMul = { A + B, A * B };
+        //    return SumMul ;
+        //}
 
-        //int [] Numbers = { 1, 2, 3 };
-        //Console.WriteLine(SumArray(Numbers));
-        //Console.WriteLine(Numbers[0]);
-
-
-
-
-        //Passing By Reference
-        //int[] Numbers = { 1, 2, 3 };
-        //Console.WriteLine(SumArray(ref Numbers));
-        //Console.WriteLine(Numbers[0]); 
-
-        // example 02
-        //Passing Parameter Reference Type
-
-        // Passing By Value
-
-        //int[] Numbers = { 1, 2, 3 };
-        //Console.WriteLine(SumArray(Numbers));
-        //Console.WriteLine(Numbers[0]);
-
-
-        // Passing By References
-
-
-        //int[] Numbers = { 1, 2, 3 };
-        //Console.WriteLine(SumArray(ref Numbers));
-        //Console.WriteLine(Numbers[0]);
-
+        //static int[] SumMul(int A, int B)
+        //{
+        //    int[] SumMul = { A + B, A * B };
+        //    return SumMul;
+        //}
+        //static NewData SumMul(int A, int B)
+        //{
+        //   NewData data = new NewData();
+        //    data.Sum = A+B;
+        //    data.Mul = A*B;
+        //    return data;
+        //}    
         static void Main(string[] args)
         {
             #region One_D_Array
@@ -258,6 +259,7 @@
             //Console.WriteLine($"A : {A}");
             //Console.WriteLine($"B : {B}"); 
             #endregion
+
             #region Passing Parameter Reference Type
             // Passing Parameter Reference Type
 
@@ -292,6 +294,26 @@
             //Console.WriteLine(SumArray(ref Numbers));
             //Console.WriteLine(Numbers[0]);
 
+            #endregion
+
+            #region Passing By Out
+
+            // int x=3 , y=5 ;
+            //int []arr= SumMul (x , y );
+            // Console.WriteLine(arr[0]);
+            // Console.WriteLine(arr[1]);
+
+            //  int x=3 , y=5 ;
+            // NewData data = new NewData();
+            //data = SumMul(x,y);
+            // Console.WriteLine(data.Sum);
+            // Console.WriteLine(data.Mul);
+
+            //int A = 5, B = 4, Mul, Sum;
+            //SumMul (A, B,out Sum,out Mul);
+
+            //Console.WriteLine(Sum);
+            //Console.WriteLine(Mul); 
             #endregion
         }
     }
