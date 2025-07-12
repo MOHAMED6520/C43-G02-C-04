@@ -111,6 +111,158 @@
         //        sum += Arr[i];
         //        return sum;
         //}
+        <<<<<<< Assignment1
+        #region Q01
+        //static int ValueMultipliedByFiveByValue(int value)
+        //{
+        //    value *= 5;
+        //    return value;
+        //}
+
+        //static int ValueMultipliedByFiveByReferences(ref int value)
+        //{
+        //    value *= 5;
+        //    return value;
+        //} 
+        #endregion
+
+        #region Q02
+        //static string PrintStringAfterModifyByValue (string text)
+        //{
+        //    text += " Mohamed";
+        //    return text;
+        //}
+
+        //static string PrintStringAfterModifyByReference(ref string text)
+        //{
+        //    text += " Mohamed";
+        //    return text;
+        //} 
+        #endregion
+
+        #region Q03
+        //static void SumMul (int X , int Y, out int Sum , out int Mul)
+        //{
+        //    Sum = X+Y;
+        //    Mul = X*Y;
+        //} 
+        #endregion
+
+        #region Q04
+        //static void SumDigit (int Number)
+        //{
+        //    int sum = 0,num=Number;
+
+        //  while (num > 0)
+        //    {
+        //        sum+= num % 10;
+        //        num /= 10;
+        //    }
+        //    Console.WriteLine($"The sum of the digits of the number {Number} is: {sum} ");
+
+        //} 
+        #endregion
+
+        #region Q05
+        //static void IsPrimewithvoid(int n)
+        //{
+        //    int counter = 0;
+        //    for (int i = 2; i <= n / 2; i++)
+        //    {
+        //        if (n % i == 0)
+        //            break;
+        //        else
+        //            counter++;
+
+        //    }
+
+        //    if (counter == (n / 2) - 1)
+        //        Console.WriteLine("prime");
+        //    else
+        //        Console.WriteLine("Not Prime");
+        //}
+        ////---------
+        //static bool IsPrimewithbool(int n)
+        //{
+        //    bool result = false;
+        //    int counter = 0;
+        //    for (int i = 2; i <= n / 2; i++)
+        //    {
+        //        if (n % i == 0)
+        //            break;
+        //        else
+        //            counter++;
+
+        //    }
+
+        //    if (counter == (n / 2) - 1)
+        //        result = true;
+        //    return result;
+        //}
+        #endregion
+
+        #region Q06
+        //static void MinMaxArray (ref int[]r)
+        //{
+        //    int min = r[0];
+        //    int max = r[0];
+        //  for (int i = 0; i < r.Length; i++)
+        //    {
+        //        if (min > r[i])
+        //            min = r[i];
+        //        if (max < r[i])
+        //            max = r[i];
+        //    }
+        //    Console.WriteLine($"The Min Number In Array : {min}");
+        //    Console.WriteLine($"The max Number In Array : {max}");
+        //}
+        ////-----------------------
+        //static int[] MinMaxArrayWithreturn(ref int[] r)
+        //{
+
+        //    int min = r[0];
+        //    int max = r[0];
+        //    for (int i = 0; i < r.Length; i++)
+        //    {
+        //        if (min > r[i])
+        //            min = r[i];
+        //        if (max < r[i])
+        //            max = r[i];
+        //    }
+        //    r[0] = min;
+        //    r[1] = max;
+        //    return r;
+        //} 
+        #endregion
+
+        #region Q07
+        //static int factorial(int n)
+        //{
+        //    if (n == 1)
+        //        return 1;
+
+        //    return n * factorial(n-1);
+
+        //} 
+        #endregion
+
+        #region  Q08
+        //static string ChangeChar ( ref string Name , char c , int p)
+        //{
+        //    string ns=null ;
+        //    for (int i = 0;i<Name.Length;i++)
+        //    {
+        //        if (i == p)
+        //            ns += c;
+        //        else
+        //            ns += Name[i];
+
+
+        //    }
+        //    Name = ns ;
+        //    return Name;   
+        //} 
+        #endregion
         static void Main(string[] args)
         {
             #region One_D_Array
