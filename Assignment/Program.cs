@@ -380,7 +380,34 @@
             //    Console.Write($"{wordAfter[i]} ");
             //} 
             #endregion
+            #region Q16
+            //int [,]arr1 = new int[3,3];
+            //int[,] arr2 = new int[3, 3];
+            //Console.WriteLine("Enter the values ");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        arr1[i,j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
 
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        arr2[i, j] = arr1[i,j];
+            //    }
+            //}
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write($"{arr2[i, j]} "); 
+            //    }
+            //    Console.WriteLine();
+            //} 
+            #endregion
 
         }
     }
