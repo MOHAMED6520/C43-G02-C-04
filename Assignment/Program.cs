@@ -31,6 +31,20 @@
         //    return Num1 + Num2;
         //}
 
+        //static void SWAP(int x, int y)
+        //{
+        //    int temp = x;
+        //    x = y;
+        //    y = temp;
+        //}
+
+        //static void SWAP(ref int x,ref int y)
+        //{
+        //    int temp = x;
+        //    x = y;
+        //    y = temp;
+        //}
+
         static void Main(string[] args)
         {
             #region One_D_Array
@@ -166,6 +180,32 @@
 
             //int sum = SumNumber(5, 2);
             // Console.WriteLine(SumNumber(5, 2)); 
+            #endregion
+
+            #region Passing Parameter Value Type
+
+            //Passing By Value
+
+
+            //int A = 4 , B = 5 ;
+
+            //Console.WriteLine($"A : {A}");
+            //Console.WriteLine($"B : {B}");
+
+            //Console.WriteLine("-------- After Swap ---------");
+            //SWAP( A , B);
+            //Console.WriteLine($"A : {A}");
+            //Console.WriteLine($"B : {B}");
+
+            //Passing By Reference
+            //int A = 4 , B = 5 ;
+            //Console.WriteLine($"A : {A}");
+            //Console.WriteLine($"B : {B}");
+
+            //Console.WriteLine("-------- After Swap ---------");
+            //SWAP(ref A, ref B);
+            //Console.WriteLine($"A : {A}");
+            //Console.WriteLine($"B : {B}"); 
             #endregion
 
         }
