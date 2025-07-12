@@ -15,6 +15,7 @@
         //    return value;
         //} 
         #endregion
+
         #region Q02
         //static string PrintStringAfterModifyByValue (string text)
         //{
@@ -26,6 +27,14 @@
         //{
         //    text += " Mohamed";
         //    return text;
+        //} 
+        #endregion
+
+        #region Q03
+        //static void SumMul (int X , int Y, out int Sum , out int Mul)
+        //{
+        //    Sum = X+Y;
+        //    Mul = X*Y;
         //} 
         #endregion
         static void Main(string[] args)
@@ -59,6 +68,7 @@
             //ValueMultipliedByFiveByReferences(ref x);
             //Console.WriteLine($"x = {x}"); 
             #endregion
+
             #region Q02
             //static string PrintStringAfterModifyByValue (string text)
             //{
@@ -71,6 +81,14 @@
             //    text += " Mohamed";
             //    return text;
             //} 
+            #endregion
+
+            #region  Q03
+            //int X = 5;
+            //int Y = 10;
+            //SumMul (X , Y, out int sum,out int mul);
+            //Console.WriteLine($"{X} + {Y} = {sum}");
+            //Console.WriteLine($"{X} * {Y} = {mul}"); 
             #endregion
 
         }
