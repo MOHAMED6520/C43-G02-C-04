@@ -91,6 +91,42 @@
         //}
         #endregion
 
+        #region Q06
+        //static void MinMaxArray (ref int[]r)
+        //{
+        //    int min = r[0];
+        //    int max = r[0];
+        //  for (int i = 0; i < r.Length; i++)
+        //    {
+        //        if (min > r[i])
+        //            min = r[i];
+        //        if (max < r[i])
+        //            max = r[i];
+        //    }
+        //    Console.WriteLine($"The Min Number In Array : {min}");
+        //    Console.WriteLine($"The max Number In Array : {max}");
+        //}
+        ////-----------------------
+        //static int[] MinMaxArrayWithreturn(ref int[] r)
+        //{
+
+        //    int min = r[0];
+        //    int max = r[0];
+        //    for (int i = 0; i < r.Length; i++)
+        //    {
+        //        if (min > r[i])
+        //            min = r[i];
+        //        if (max < r[i])
+        //            max = r[i];
+        //    }
+        //    r[0] = min;
+        //    r[1] = max;
+        //    return r;
+        //} 
+        #endregion
+
+       
+
         static void Main(string[] args)
         {
             #region Q01
@@ -159,6 +195,16 @@
             //Console.WriteLine(result); 
             #endregion
 
+            #region Q06
+            // int[] r = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //MinMaxArray(ref r);
+            //--------------------------
+
+            //MinMaxArrayWithreturn(ref r);
+            //Console.WriteLine(r[0]);
+            //Console.WriteLine(r[1]); 
+            #endregion
 
 
         }
