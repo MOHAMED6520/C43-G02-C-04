@@ -103,6 +103,14 @@
         //  Sum = A + B;
         //  Mul = A * B;
         //}
+
+        //static int SumArray(params int[] Arr)
+        //{ 
+        //    int sum = 0;    
+        //for (int i = 0; i < Arr.Length; i++) 
+        //        sum += Arr[i];
+        //        return sum;
+        //}
         static void Main(string[] args)
         {
             #region One_D_Array
@@ -320,6 +328,12 @@
 
             //Console.WriteLine(Sum);
             //Console.WriteLine(Mul); 
+            #endregion
+
+            #region Params
+            //Params
+            //int [] Numbers = { 1, 2, 3, 4 };
+            //Console.WriteLine(SumArray(1,2,4,5,7,8)); 
             #endregion
         }
     }
