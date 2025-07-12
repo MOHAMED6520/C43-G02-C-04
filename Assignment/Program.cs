@@ -136,6 +136,24 @@
         //} 
         #endregion
 
+        #region  Q08
+        //static string ChangeChar ( ref string Name , char c , int p)
+        //{
+        //    string ns=null ;
+        //    for (int i = 0;i<Name.Length;i++)
+        //    {
+        //        if (i == p)
+        //            ns += c;
+        //        else
+        //            ns += Name[i];
+
+
+        //    }
+        //    Name = ns ;
+        //    return Name;   
+        //} 
+        #endregion
+
         static void Main(string[] args)
         {
             #region Q01
@@ -217,6 +235,12 @@
 
             #region Q07
             // Console.WriteLine(factorial(4)); 
+            #endregion
+
+            #region Q08
+            //string Name = "mohamed";
+            //ChangeChar(ref Name, 'a', 1);
+            //Console.WriteLine(Name); 
             #endregion
 
         }
