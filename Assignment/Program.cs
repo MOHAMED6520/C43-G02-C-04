@@ -53,7 +53,44 @@
         //} 
         #endregion
 
-        
+        #region Q05
+        //static void IsPrimewithvoid(int n)
+        //{
+        //    int counter = 0;
+        //    for (int i = 2; i <= n / 2; i++)
+        //    {
+        //        if (n % i == 0)
+        //            break;
+        //        else
+        //            counter++;
+
+        //    }
+
+        //    if (counter == (n / 2) - 1)
+        //        Console.WriteLine("prime");
+        //    else
+        //        Console.WriteLine("Not Prime");
+        //}
+        ////---------
+        //static bool IsPrimewithbool(int n)
+        //{
+        //    bool result = false;
+        //    int counter = 0;
+        //    for (int i = 2; i <= n / 2; i++)
+        //    {
+        //        if (n % i == 0)
+        //            break;
+        //        else
+        //            counter++;
+
+        //    }
+
+        //    if (counter == (n / 2) - 1)
+        //        result = true;
+        //    return result;
+        //}
+        #endregion
+
         static void Main(string[] args)
         {
             #region Q01
@@ -113,6 +150,17 @@
             //int number = int.Parse(Console.ReadLine());
             //    SumDigit(number); 
             #endregion
+
+            #region Q05
+            //IsPrimewithvoid(7);
+
+            ////-------
+            //bool result = IsPrimewithbool(7);
+            //Console.WriteLine(result); 
+            #endregion
+
+
+
         }
     }
 }
