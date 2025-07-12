@@ -256,6 +256,16 @@
             //} 
             #endregion
 
+            #region Q10
+            //int sum = 0;
+            //int[] arr = { 14, 22, 31, 45, 50 };
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    sum += arr[i];
+
+            //}
+            //Console.WriteLine(sum); 
+            #endregion
 
         }
     }
