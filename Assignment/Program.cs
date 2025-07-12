@@ -99,6 +99,34 @@
 
             ////} 
             #endregion
+
+            #region Two D Array Juddge
+            //int[][] Marks = new int[3][];
+            //Marks[0] = new int[] { 1,2,3};
+            //Marks[1] = new int[] {1};
+            //Marks[2] = new int[] { 1, 2, 3 ,4 };
+
+            //for (int i = 0;i<3;i++)
+            //{
+            //    for (int j = 0;j<Marks[i].Length;j++)
+
+            //    {
+            //        Console.Write($"Marks[{i}][{j}] : ");
+            //        Marks[i][j]=int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < Marks[i].Length; j++)
+
+            //    {
+            //        Console.Write($"{Marks[i][j]} ");
+
+            //    }
+            //} 
+            #endregion
+
         }
     }
 }
