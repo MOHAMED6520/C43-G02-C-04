@@ -267,6 +267,52 @@
             //Console.WriteLine(sum); 
             #endregion
 
+            #region Q11
+            // int[] arr1 = { 14, 22, 31, 45, 50 };
+            // int[] arr2 = { 4, 12, 301, 75, 57 };
+            // int[] result = new int[arr1.Length*2];
+
+            //for (int i = 0; i < arr1.Length; i++)
+            //{
+            //    result[i] = arr1[i];
+
+            //}
+            //for (int i = 0; i < arr1.Length; i++)
+            //{
+            //    result[arr1.Length+i] = arr2[i];
+
+            //}
+
+            //Console.WriteLine("Array Befor Sort");
+            //for (int i = 0; i < result.Length; i++)
+            //{
+            //    Console.Write($" {result[i]}");
+
+            //}
+            //Console.WriteLine();
+            //int temp = 0;
+            //for (int i = 0; i < result.Length; i++)
+            //{
+
+            //    for (int j = i; j < result.Length; j++)
+            //    {
+            //        if (result[i] > result[j])
+            //        {
+            //            temp=result[i];
+            //            result[i]=result[j];
+            //            result[j]=temp;
+            //        }
+            //    }
+            //}
+
+            //Console.WriteLine("Array After Sort");
+            //for (int i = 0; i < result.Length; i++)
+            //{
+            //    Console.Write ($" {result[i]}"); 
+
+            //} 
+            #endregion
+
         }
     }
 }
