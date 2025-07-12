@@ -2,7 +2,35 @@
 {
     internal class Program
     {
-       
+        //static void PrintShape()
+        //{
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        Console.WriteLine("^-^");
+        //    }
+        //}
+
+        //static void PrintShape(int Count)    
+        //{
+        //    for (int i = 0; i < Count; i++)
+        //    {
+        //        Console.WriteLine("^-^");
+        //    }
+        //}
+
+        //static void PrintShape(  string Patern  = "******", int Count = 3)
+        //{
+        //    for (int i = 0; i < Count; i++)
+        //    {
+        //        Console.WriteLine(Patern);
+        //    }
+        //}
+
+        //static int SumNumber (int Num1,int Num2)
+        //{
+        //    return Num1 + Num2;
+        //}
+
         static void Main(string[] args)
         {
             #region One_D_Array
@@ -125,6 +153,19 @@
 
             //    }
             //} 
+            #endregion
+
+            #region Function Prototype
+            // Function : Block Of Code 
+            // PrintShape();
+
+            // PrintShape(5);
+
+            //PrintShape(5, "*******");
+            //PrintShape(Patern:"*****",Count:3);
+
+            //int sum = SumNumber(5, 2);
+            // Console.WriteLine(SumNumber(5, 2)); 
             #endregion
 
         }
