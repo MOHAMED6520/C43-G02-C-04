@@ -2,51 +2,52 @@
 {
     internal class Program
     {
-        #region Q01
-        //static int ValueMultipliedByFiveByValue(int value)
-        //{
-        //    value *= 5;
-        //    return value;
-        //}
-
-        //static int ValueMultipliedByFiveByReferences(ref int value)
-        //{
-        //    value *= 5;
-        //    return value;
-        //} 
-        #endregion
+       
         static void Main(string[] args)
         {
-            #region Q01
-            /*
-                  At passing by value means make copy of actual parameter value at stack
-                  and if the values of the parameters at the function are changed
-                  the actual value will not be affected.
+            #region One_D_Array
+            //int[] Numbers;
+            //Declare for reference (pointer) from type 'Array of integer'
 
-                  At passing by Reference means  making a copy of the actual parameter's
-                  alias or reference which points to the same space in stack
-                  and if the values of the parameters at the function are changed
-                  the actual value will change.
-                */
+            //Numbers = new int[5];
+            //Allocate the number of required bytes for the object at HEAP
 
-            //Passing By Value
+            //Console.WriteLine(Numbers[0]);
+            //Console.WriteLine(Numbers[1]);
 
-            //int x = 3;
-            //Console.WriteLine("Passing By Value");
-            //Console.WriteLine($"x = {x}");
-            //Console.WriteLine("After Multiply ");
-            //ValueMultipliedByFiveByValue(x);
-            //Console.WriteLine($"x = {x}");
-            //Console.WriteLine();
-            ////Passing By references
-            //Console.WriteLine();
-            //Console.WriteLine("Passing By references");
-            //Console.WriteLine($"x = {x}");
-            //Console.WriteLine("After Multiply ");
-            //ValueMultipliedByFiveByReferences(ref x);
-            //Console.WriteLine($"x = {x}"); 
+            //Numbers[0] = 1;
+            //Numbers[1] = 2;
+            //Numbers[2] = 3;
+            //Numbers[3] = 4;
+            //Numbers[4] = 5;
+            //  Numbers[5] = 6; //Invalid Out of range
+
+            //Console.WriteLine(Numbers[0]);
+            //Console.WriteLine(Numbers[1]);
+            //Console.WriteLine(Numbers[2]);
+            //Console.WriteLine(Numbers[3]);
+            //Console.WriteLine(Numbers[4]);
+
+            //int [] Number01= {1,2,3,4,5};
+            //int[] Number02 = new int[5] { 1, 2, 3, 4, 5 };
+            //int[] Number03 = new int[] {1,2, 3, 4,5};
+
+            //int[] Numbers = new int[5];
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Console.Write($"Enter Number Of [{i}] : ");
+            //    Numbers[i] = int.Parse( Console.ReadLine() );
+            //}
+            //Console.WriteLine("===================");
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Console.Write($"{Numbers[i]} ");
+
+            //}
+
+            //Console.WriteLine(Numbers.Length);
+            //Console.WriteLine(Numbers.Rank); 
             #endregion
-
         }
     }
 }
