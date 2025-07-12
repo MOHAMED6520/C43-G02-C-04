@@ -487,6 +487,274 @@
             //int [] Numbers = { 1, 2, 3, 4 };
             //Console.WriteLine(SumArray(1,2,4,5,7,8)); 
             #endregion
+                 #region Q01
+            /*
+                  At passing by value means make copy of actual parameter value at stack
+                  and if the values of the parameters at the function are changed
+                  the actual value will not be affected.
+
+                  At passing by Reference means  making a copy of the actual parameter's
+                  alias or reference which points to the same space in stack
+                  and if the values of the parameters at the function are changed
+                  the actual value will change.
+                */
+
+            //Passing By Value
+
+            //int x = 3;
+            //Console.WriteLine("Passing By Value");
+            //Console.WriteLine($"x = {x}");
+            //Console.WriteLine("After Multiply ");
+            //ValueMultipliedByFiveByValue(x);
+            //Console.WriteLine($"x = {x}");
+            //Console.WriteLine();
+            ////Passing By references
+            //Console.WriteLine();
+            //Console.WriteLine("Passing By references");
+            //Console.WriteLine($"x = {x}");
+            //Console.WriteLine("After Multiply ");
+            //ValueMultipliedByFiveByReferences(ref x);
+            //Console.WriteLine($"x = {x}"); 
+            #endregion
+
+            #region Q02
+            //static string PrintStringAfterModifyByValue (string text)
+            //{
+            //    text += " Mohamed";
+            //    return text;
+            //}
+
+            //static string PrintStringAfterModifyByReference(ref string text)
+            //{
+            //    text += " Mohamed";
+            //    return text;
+            //} 
+            #endregion
+
+            #region  Q03
+            //int X = 5;
+            //int Y = 10;
+            //SumMul (X , Y, out int sum,out int mul);
+            //Console.WriteLine($"{X} + {Y} = {sum}");
+            //Console.WriteLine($"{X} * {Y} = {mul}"); 
+            #endregion
+
+            #region Q04
+            //    Console.Write("Enter a number: ");
+            //int number = int.Parse(Console.ReadLine());
+            //    SumDigit(number); 
+            #endregion
+
+            #region Q05
+            //IsPrimewithvoid(7);
+
+            ////-------
+            //bool result = IsPrimewithbool(7);
+            //Console.WriteLine(result); 
+            #endregion
+
+            #region Q06
+            // int[] r = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //MinMaxArray(ref r);
+            //--------------------------
+
+            //MinMaxArrayWithreturn(ref r);
+            //Console.WriteLine(r[0]);
+            //Console.WriteLine(r[1]); 
+            #endregion
+
+            #region Q07
+            // Console.WriteLine(factorial(4)); 
+            #endregion
+
+            #region Q08
+            //string Name = "mohamed";
+            //ChangeChar(ref Name, 'a', 1);
+            //Console.WriteLine(Name); 
+            #endregion
+
+            #region Q09
+
+            //Console.Write("Enter The Value Of N : ");
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //        Console.Write(n);
+            //    Console.WriteLine();
+            //} 
+            #endregion
+
+            #region Q10
+            //int sum = 0;
+            //int[] arr = { 14, 22, 31, 45, 50 };
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    sum += arr[i];
+
+            //}
+            //Console.WriteLine(sum); 
+            #endregion
+
+            #region Q11
+            // int[] arr1 = { 14, 22, 31, 45, 50 };
+            // int[] arr2 = { 4, 12, 301, 75, 57 };
+            // int[] result = new int[arr1.Length*2];
+
+            //for (int i = 0; i < arr1.Length; i++)
+            //{
+            //    result[i] = arr1[i];
+
+            //}
+            //for (int i = 0; i < arr1.Length; i++)
+            //{
+            //    result[arr1.Length+i] = arr2[i];
+
+            //}
+
+            //Console.WriteLine("Array Befor Sort");
+            //for (int i = 0; i < result.Length; i++)
+            //{
+            //    Console.Write($" {result[i]}");
+
+            //}
+            //Console.WriteLine();
+            //int temp = 0;
+            //for (int i = 0; i < result.Length; i++)
+            //{
+
+            //    for (int j = i; j < result.Length; j++)
+            //    {
+            //        if (result[i] > result[j])
+            //        {
+            //            temp=result[i];
+            //            result[i]=result[j];
+            //            result[j]=temp;
+            //        }
+            //    }
+            //}
+
+            //Console.WriteLine("Array After Sort");
+            //for (int i = 0; i < result.Length; i++)
+            //{
+            //    Console.Write ($" {result[i]}"); 
+
+            //} 
+            #endregion
+
+            #region Q12
+            //int[] arr = { 11, 2, 23, 44, 15, 65, 74, 18, 90 };
+            //int min = arr[0], max = arr[0];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] < min)
+            //        min = arr[i];
+            //    if (arr[i] > max)
+            //        max = arr[i];
+            //}
+            //Console.WriteLine($"Max = {max}");
+            //Console.WriteLine($"Min = {min}"); 
+            #endregion
+
+            #region Q13
+            //int[] arr = { 11, 2, 23, 44, 15, 65, 74, 18, 90 };
+            //int max2 = arr[0], max = arr[0];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+
+            //    if (arr[i] > max)
+            //    {
+            //        max2 = max;
+            //        max = arr[i];
+            //    }
+
+            //}
+            //Console.WriteLine($"he second largest element = {max2}"); 
+            #endregion
+
+            #region Q14
+            //Console.Write("Enter The lenth of Array : ");
+            //int len = int.Parse(Console.ReadLine());
+            //Console.WriteLine("enter the values");
+            //int []arr = new int[len];
+            //for (int i = 0; i < len; i++)
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //int dis = 0 ,lastdis=0;
+
+            //for (int i =0;i<len;i++)
+            //{
+            //    for (int j = i; j < len; j++)
+            //    {
+            //        if (arr[i] == arr[j])
+            //            dis = j - i-1;
+            //    }
+            //    if (lastdis<dis)
+            //        lastdis = dis;
+            //    dis = 0;
+            //}
+
+            //Console.WriteLine($"The longest distance between Two equal cells = {lastdis}");
+
+            #endregion
+
+            #region Q15
+            //Console.Write("Enter String : ");
+
+            //string word = Console.ReadLine();
+            //string[] wordAfter = word.Split(' ');
+
+            //for (int i = wordAfter.Length-1; i >= 0; i--)
+            //{
+            //    Console.Write($"{wordAfter[i]} ");
+            //} 
+            #endregion
+
+            #region Q16
+            //int [,]arr1 = new int[3,3];
+            //int[,] arr2 = new int[3, 3];
+            //Console.WriteLine("Enter the values ");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        arr1[i,j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        arr2[i, j] = arr1[i,j];
+            //    }
+            //}
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write($"{arr2[i, j]} "); 
+            //    }
+            //    Console.WriteLine();
+            //} 
+            #endregion
+
+            #region Q17
+            //int[]arr = { 1, 2, 31, 41 , 7, 8,84,11 };
+            //Console.WriteLine("Array Befor Reverse");
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"{arr[i] } ");
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("Array After Reverse");
+            //for (int i = arr.Length-1; i >= 0; i--)
+            //{
+            //    Console.Write($"{arr[i]} ");
+            //} 
+            #endregion
         }
     }
 }
