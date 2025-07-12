@@ -125,7 +125,16 @@
         //} 
         #endregion
 
-       
+        #region Q07
+        //static int factorial(int n)
+        //{
+        //    if (n == 1)
+        //        return 1;
+
+        //    return n * factorial(n-1);
+
+        //} 
+        #endregion
 
         static void Main(string[] args)
         {
@@ -206,6 +215,9 @@
             //Console.WriteLine(r[1]); 
             #endregion
 
+            #region Q07
+            // Console.WriteLine(factorial(4)); 
+            #endregion
 
         }
     }
