@@ -380,6 +380,7 @@
             //    Console.Write($"{wordAfter[i]} ");
             //} 
             #endregion
+
             #region Q16
             //int [,]arr1 = new int[3,3];
             //int[,] arr2 = new int[3, 3];
@@ -409,6 +410,20 @@
             //} 
             #endregion
 
+            #region Q17
+            //int[]arr = { 1, 2, 31, 41 , 7, 8,84,11 };
+            //Console.WriteLine("Array Befor Reverse");
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"{arr[i] } ");
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("Array After Reverse");
+            //for (int i = arr.Length-1; i >= 0; i--)
+            //{
+            //    Console.Write($"{arr[i]} ");
+            //} 
+            #endregion
         }
     }
 }
