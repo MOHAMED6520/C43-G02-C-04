@@ -327,6 +327,22 @@
             //Console.WriteLine($"Min = {min}"); 
             #endregion
 
+            #region Q13
+            //int[] arr = { 11, 2, 23, 44, 15, 65, 74, 18, 90 };
+            //int max2 = arr[0], max = arr[0];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+
+            //    if (arr[i] > max)
+            //    {
+            //        max2 = max;
+            //        max = arr[i];
+            //    }
+
+            //}
+            //Console.WriteLine($"he second largest element = {max2}"); 
+            #endregion
+
         }
     }
 }
