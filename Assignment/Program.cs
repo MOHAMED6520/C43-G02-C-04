@@ -369,6 +369,19 @@
 
             #endregion
 
+            #region Q15
+            //Console.Write("Enter String : ");
+
+            //string word = Console.ReadLine();
+            //string[] wordAfter = word.Split(' ');
+
+            //for (int i = wordAfter.Length-1; i >= 0; i--)
+            //{
+            //    Console.Write($"{wordAfter[i]} ");
+            //} 
+            #endregion
+
+
         }
     }
 }
